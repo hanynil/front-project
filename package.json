@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "^5.0.8",
     "tailwindcss": "^3.4.13"
   },
   "dependencies": {

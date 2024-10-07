@@ -26,7 +26,7 @@
 <template>
  <div>
     <h1>زمان فعلی :</h1>
-    <span id="datetime">{{ currentDateTime }}</span>
+    <span>{{ currentDateTime }}</span>
  </div>
 </template>
 
