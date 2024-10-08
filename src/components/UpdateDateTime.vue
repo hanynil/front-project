@@ -1,3 +1,10 @@
+<template>
+    <div class="text-center">
+       <h1 class="text-4xl font-bold text-blue-500">زمان فعلی :</h1>
+       <span>{{ currentDateTime }}</span>
+    </div>
+</template>
+
 <script>
     export default{
           
@@ -23,10 +30,5 @@
     };
 </script>
 
-<template>
- <div>
-    <h1>زمان فعلی :</h1>
-    <span>{{ currentDateTime }}</span>
- </div>
-</template>
+
 

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    import UpdateDateTime from './frontstation-practic/pr-1/components/UpdateDateTime.vue';
+    import UpdateDateTime from './components/UpdateDateTime.vue';
     export default{
         components:{
             UpdateDateTime,
