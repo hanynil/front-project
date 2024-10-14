@@ -2,3 +2,27 @@
 @import './Header.css';
 @import './Input.css';
 
+@font-face {
+    font-family: "kalame";
+    src: url("../assets/fonts/kalameh/Kalameh\ Bold.ttf");
+}
+
+*{
+    font-family: "kalame";
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "kalame";
+    background-image: url("../assets/images/beautiful-sky-landscape-digital-art-style.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+        height: 100vh;
+}
+
+.glassmorphism{
+    @apply  flex flex-col gap-y-4 w-1/4 bg-purple-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+
+
+}

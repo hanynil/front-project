@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "kalame";
+        src: url("../assets/fonts/kalameh/Kalameh\ Bold.ttf");
+        
+    }
+
+    body {
+        font-family: "kalame";
+    }
+}
